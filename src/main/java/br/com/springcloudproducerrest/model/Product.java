@@ -1,17 +1,20 @@
 package br.com.springcloudproducerrest.model;
 
+import lombok.AccessLevel;
 import lombok.Data;
+import lombok.experimental.FieldDefaults;
 
 @Data
+@FieldDefaults(level = AccessLevel.PRIVATE)
 public class Product {
 
-    private String name;
+    String name;
 
-    private String category;
+    String category;
 
-    private Double value;
+    Double value;
 
-    private Integer quantity;
+    Integer quantity;
 
     public Product() {
     }
