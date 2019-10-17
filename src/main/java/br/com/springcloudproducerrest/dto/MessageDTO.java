@@ -1,12 +1,17 @@
 package br.com.springcloudproducerrest.dto;
 
+import lombok.AccessLevel;
+import lombok.experimental.FieldDefaults;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+
+@FieldDefaults(level = AccessLevel.PRIVATE)
 public class MessageDTO {
 
-    private String message;
-    private String timestamp;
+    String message;
+    String timestamp;
 
     public MessageDTO() {
         this.message = "This is a custom message";
