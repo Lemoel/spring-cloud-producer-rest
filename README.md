@@ -109,5 +109,3 @@ Se tudo deu certo até agora, essa imagem docker do RabbitMQ também irá prover
  sudo rabbitmqctl set_permissions -p / admin ".*" ".*" ".*"
  sudo rabbitmq-plugins enable rabbitmq_management
  RabbitMQ dashboard starts on port 15672
- 
- 
