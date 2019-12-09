@@ -96,3 +96,18 @@ Se tudo deu certo até agora, essa imagem docker do RabbitMQ também irá prover
  `https://medium.com/@jvoliveiran/spring-cloud-stream-simplificando-o-uso-de-message-broker-71f1731f5f5`
   
  `https://medium.com/@jvoliveiran/spring-cloud-stream-simplificando-o-uso-de-message-broker-parte-2-e82d02e1371c`
+  
+ Instalando o RabbitMQ direto no Ubuntu, ou seja, não utilizando o Docker
+ Teste realizado no Ubuntu 19.10
+ 
+ sudo apt-get install rabbitmq-server
+ sudo systemctl enable rabbitmq-server
+ sudo systemctl stop rabbitmq-server
+ sudo systemctl start rabbitmq-server
+ sudo rabbitmqctl add_user admin admin 
+ sudo rabbitmqctl set_user_tags admin administrator
+ sudo rabbitmqctl set_permissions -p / admin ".*" ".*" ".*"
+ sudo rabbitmq-plugins enable rabbitmq_management
+ RabbitMQ dashboard starts on port 15672
+ 
+ 
