@@ -4,7 +4,7 @@
 
 O projeto usa o RabbitMQ
 
-Podemos utilizar o HabbitMQ via Docker ou instalado diretamente no SO, aqui esta instruções para instalação via Docker.
+Podemos utilizar o RabbitMQ via Docker ou instalado diretamente no SO, aqui esta instruções para instalação via Docker.
 Este procedimento foi realizado e testado no Ubuntu 19:10
 
 Primeiro, atualize sua lista atual de pacotes:
