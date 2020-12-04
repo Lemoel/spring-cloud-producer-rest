@@ -36,7 +36,7 @@ Finalmente, instale o Docker:
 
 `sudo apt install docker-ce`
 
-O Docker agora deve ser instalado, o daemon iniciado e o processo ativado para iniciar na inicialização.
+O Docker agora deve ser instalado, o daemon iniciado e o processo ativado para iniciar no boot do sistema operacional.
 Verifique se ele está sendo executado:
 
 `sudo systemctl status docker`
