@@ -29,7 +29,7 @@ A seguir, atualize o banco de dados de pacotes com os pacotes Docker do reposit�
 
 Certifique-se de que você irá instalar a partir do repositório do Docker em vez do repositório padrão do Ubuntu:
 
-`apt-cache policy docker-ce`
+`sudo apt-cache policy docker-ce`
 
 Observe que o docker-ce não está instalado, mas o candidato para instalação é do repositório do Docker para o Ubuntu 18.04 (bionic) ou superior
 Finalmente, instale o Docker:
