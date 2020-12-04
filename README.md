@@ -21,7 +21,7 @@ Então adicione a chave GPG para o repositório oficial do Docker em seu sistema
 
 Adicione o repositório do Docker às fontes do APT:
 
-`sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu bionic stable"`
+`sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"`
 
 A seguir, atualize o banco de dados de pacotes com os pacotes Docker do repositório recém adicionado:
 
