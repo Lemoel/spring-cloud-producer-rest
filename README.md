@@ -2,7 +2,7 @@
 
 # Pré-requisito
 
-O projeto usa o HabbitMQ
+O projeto usa o RabbitMQ
 
 Podemos utilizar o HabbitMQ via Docker ou instalado diretamente no SO, aqui esta instruções para instalação via Docker.
 Este procedimento foi realizado e testado no Ubuntu 19:10
