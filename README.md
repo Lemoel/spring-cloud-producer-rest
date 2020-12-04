@@ -57,7 +57,7 @@ A saída deve ser semelhante à seguinte, mostrando que o serviço está ativo e
 
 Para simplificar o uso do RabbitMQ, utilizaremos uma imagem docker do RabbitMQ, sendo necessário apenas executar o seguinte comando no terminal:
 
-`docker run -d --hostname local-rabbit --name rabbit-mq -p 15672:15672 -p 5672:5672 rabbitmq:3.6.9-management`
+`sudo docker run -d --hostname local-rabbit --name rabbit-mq -p 15672:15672 -p 5672:5672 rabbitmq:3.8.9-management`
 
 Após execução desse comando, a imagem docker será baixada, caso seja a primeira vez que ela esteja sendo utilizada, e posteriormente o container será iniciado. Para verificar se o container está sendo executado, utilize o comando abaixo:
 
